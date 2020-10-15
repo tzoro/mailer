@@ -1,0 +1,12 @@
+{
+    "require": {
+        "php-di/php-di": "^6.0",
+        "nikic/fast-route": "^1.3",
+        "dcblogdev/pdo-wrapper": "*"
+    },
+	"autoload": {
+		"psr-4": {
+			"Api\\": "src/"
+		}
+	}
+}
